@@ -17,7 +17,7 @@ router.get('/', (req, res) =>{
         title:"Desafío Complementario Nª4",
     } 
     console.log(saludo);
-    res.render('index', {saludo});
+    res.render('chat', {saludo});
 });
 
 //Ruta Home Mongo
